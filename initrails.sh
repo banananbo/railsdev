@@ -1,1 +1,1 @@
-rails new . --database=mysql --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-strage --skip-action-cable 
+rails new . --database=mysql --skip-test --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-strage --skip-action-cable 

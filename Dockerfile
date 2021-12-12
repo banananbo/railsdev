@@ -27,4 +27,7 @@ RUN bundle config set path vendor/bundle
 RUN gem update --system
 RUN gem install rails -v 6.0.3
 
+RUN apt-get update -qq
+RUN apt install default-mysql-client-core/oldstable
+
 CMD ["bash"]
