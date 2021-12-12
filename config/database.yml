@@ -16,6 +16,7 @@ default: &default
   username: root
   password: password
   host: docker.for.mac.localhost
+  port: 3307
 
 development:
   <<: *default
