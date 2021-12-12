@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Category.create(id:1, name:'Campany')
+Component.create(name:'トヨタ自動車(株)', category_id: 1)
